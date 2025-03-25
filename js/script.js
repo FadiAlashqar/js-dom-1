@@ -2,5 +2,9 @@
 
 const immagine = document.querySelector('.img');
 const button = document.querySelector('.btn');
-const secondaImmagine = document.querySelector('.second-img');
 
+// Corpo del programma:
+
+button.addEventListener('click', function () {
+    immagine.src = "./img/yellow_lamp.png"
+});
